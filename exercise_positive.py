@@ -16,10 +16,8 @@ def positive():
         El numero es cero
     """
     pass
-numero = int(input ())
-    if numero > 0:
-        print ("El numero es positivo")
-    elif numero < 0:
-        print("El numero es negativo")
+    dia_semana = input().lower()
+    if not (dia_semana == "sabado" or dia_semana == "domingo"):
+        print("Dia habil")
     else:
-        print("El numero es cero")
+        print("Fin de semana")
