@@ -23,7 +23,7 @@ def calculator():
         Operacion invalida
     """
     pass 
-     numero_uno = float(input())
+    numero_uno = float(input())
     numero_dos = float(input())
     operacion = input()
 
